@@ -1,0 +1,28 @@
+package com.demo;
+
+public class MultiLevel extends C{
+	public static void main(String args[]) {
+		method();
+		method1();
+		method2();
+		
+	}
+
+	
+	
+}
+class A{
+	static void method() {
+		System.out.println("Hii:");
+	}
+}
+class B extends A{
+	static void method1() {
+		System.out.println("welcome:");
+	}
+}
+class C extends B{
+	static void method2() {
+		System.out.println("kg:");
+	}
+}
